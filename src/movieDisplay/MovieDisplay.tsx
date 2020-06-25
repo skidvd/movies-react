@@ -4,7 +4,7 @@ import { MovieDetails, Rating } from "../api";
 
 const ROTTEN_TOMATOES = 'rotten tomatoes';
 
-export default function ImageDisplay(props: {
+export default function MovieDisplay(props: {
     movie: MovieDetails;
     toggle: Function;
 }) {
